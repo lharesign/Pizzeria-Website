@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roslagens Pizzabutik, Kyrkogatan 8, 761 30 Norrtälje">
+    <meta name="keywords"
+        content="Pizza, Pizzabutik, Norrtälje, Kyrkogatan, Haresign, Roslagens, Roslagens Pizzabutik, Pizzabutik Kyrkogatan">
+    <meta name="author" content="Luke Haresign">
+    <meta property="og:url" content="https://roslagenspizzabutik.se/">
+    <meta property="og:title" content="Roslagenspizzabutik">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Kyrkogatan 8, 761 30 Norrtälje">
+    <meta property="og:site_name" content="Roslagenspizzabutik">
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png">
+    <meta property="og:article:published_time" content="2020-03-29T00:00:00+0100">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="C:\Users\Luke\Documents\Programming Komvux\Pizzeria\Images\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="C:\Users\Luke\Documents\Programming Komvux\Pizzeria\Images\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="CC:\Users\Luke\Documents\Programming Komvux\Pizzeria\Images\favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Roslagenspizzabutik</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title"><a href="index.html">Roslagens Pizzabutik</a></h1>
+            <ul id="header-nav">
+                <a class="nav-btn" href="index.html">Hem</a>
+                <div class="dropdown">
+                    <a class="nav-btn drop-btn" href="meny.html">Meny</a>
+                    <div class="dropdown-content">
+                        <a href="meny.html#pizza-menu">Pizza</a>
+                        <a href="meny.html#salad-menu">Sallad</a>
+                        <a href="meny.html#hamburger-menu">Hamburgare</a>
+                        <a href="meny.html#taco-menu">Tacorätter</a>
+                        <a href="meny.html#others-menu">Kebab/Falafel/Lasagne</a>
+                    </div>
+                </div>
+                <a class="nav-btn" href="om-oss.html">Om Oss</a>
+            </ul>
+        </div>
+        <div class="topnav">
+            <div id="myLinks">
+                <!-- Links for mobile hamburger menu - hidden by default -->
+                <a href="index.html">Hem</a>
+                <a href="meny.html">Meny</a>
+                <a href="om-oss.html">Om Oss</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <div class="site-content">
+        <div class="page-content">
+            <h3 id="pizza-menu">Pizzor 80:- &nbsp;&nbsp;&nbsp;&nbsp; Familjepizzor 190:-</h3>
+            <hr width="35%">
+            <table class="menu-table">
+                <tr>
+                    <td class="item-name"></td>
+                    <td class="item-price">N</td>
+                    <td class="item-price">F</td>
+                </tr>
+                <tr>
+                    <td class="item-name">1. Margherita - <small>Ost, Tomat Sås</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">2. Al Funghi - <small>F. Champinjoner</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">3. Bolognese - <small>Köttfärs, Lök</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">4. Vessuvio - <small>Skinka</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">5. Percatore - <small>Tonfisk, Lök</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">6. Cacito - <small>Salami, Oliver</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">7. Capricciosa - <small>Skinka, Champinjoner</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">8. Bussola - <small>Skinka, Räkor</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">9. Hawaii - <small>Skinka, Ananas</small></td>
+                    <td class="item-price">80:-</td>
+                    <td class="item-price">190:-</td>
+                </tr>
+            </table>
+            <h3>Pizzor 85:- &nbsp;&nbsp;&nbsp;&nbsp; Familjepizzor 210:-</h3>
+            <hr width="35%">
+            <table class="menu-table">
+                <tr>
+                    <td class="item-name"></td>
+                    <td class="item-price">N</td>
+                    <td class="item-price">F</td>
+                </tr>
+                <tr>
+                    <td class="item-name">10. Opera - <small>Skinka, Tonfisk</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">11. Marinara - <small>Ost, Räkor, Musslor</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">12. Rivera - <small>Skinka, Räkor, Champinjoner</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">13. Banan - <small>Skinka, Banan, Curry</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">14. Rossi - <small>Skinka, Räkor, Ananas</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">15. Pompei - <small>Bacon, Lök, Ägg</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">16. Napolitana - <small>Sardeller, Oliver</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">17. Dolce Vita - <small>Skinka, Tomater, Lök</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">18. Verona - <small>Räkor, Ananas, Banan</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">19. Gallery - <small>Köttfärs, Tomater, Bearnaisesås</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">20. Salami - <small>Salami, Paprika, Lök, Sparris</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">21. Vera - <small>Champinjoner, Räkor, Tonfisk</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">22. Quattro Satgioni - <small>Skinka, Räkor, Champinjoner, Musslor,
+                            Kronärtskrocka</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">23. Vegetariana - <small>Champinjoner, Lök, Paprika, Oliver, Kronärtskrocka,
+                            Sparris, Tomat</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">24. Indiana - <small>Räkor, Lök, Ananas, Paprika, Oliver, Sparris,
+                            Curry</small>
+                    </td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">25. Gorgonzolla - <small>Skinka, Gorgonzolla</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">26. Roma - <small>Gorgonzolla, Köttfärs</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">27. La Bella - <small>Skinka, Räkor, Banan, Curry</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">28. Kyckling - <small>Kyckling, Banan, Curry</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">29. Mammamia - <small>Skinka, Bacon, Lök, Ägg, Cayennepeppar</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">30. Devran - <small>Skinka, Champinjoner, Lök, Bacon, Ägg</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">31. Havana - <small>Skinka, Ananas, Banan, Curry</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">32. Venezio - <small>Skinka, Köttfärs, Lök, Cayennepeppar</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">33. Härlig - <small>Bacon, Salami, Ägg, Cayennepeppar</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name">34. Memo - <small>Kyckling, Jordnötter, Curry</small></td>
+                    <td class="item-price">85:-</td>
+                    <td class="item-price">210:-</td>
+                </tr>
+            </table>
+            <h3>Pizzor Inbakade</h3>
+            <hr width="35%">
+            <table class="menu-table">
+                <tr>
+                    <td class="item-name-wide"></td>
+                    <td class="item-price-hide">N</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">35. Calzone - <small>Skinka</small></td>
+                    <td class="item-price">80:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">36. Calzone Special - <small>Skinka, Räkor, Champinjoner</small></td>
+                    <td class="item-price">90:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">37. Alex - <small>Fårost, Köttfärs, Lök, Tomat</small></td>
+                    <td class="item-price">95:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">38. Flygande Tefat (Dubbel Inbakad) - <small>Skinka</small></td>
+                    <td class="item-price">95:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">39. Globen (Dubbel Inbakad) - <small>Skinka, Räkor, Champinjoner</small>
+                    </td>
+                    <td class="item-price">105:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">40. Oxfilé (Halv Inbakad) - <small>Oxfilé, Bearnaisesås</small></td>
+                    <td class="item-price">95:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">41. Hamis (Halv Inbakad) - <small>Lök, Oxfilé, Gorgonzolla, Tomater,
+                            Cayennepeppar</small></td>
+                    <td class="item-price">95:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">42. Anton (Halv Inbakad) - <small>Fläskfilé, Champinjoner, Tomater,
+                            Bearnaisesås</small></td>
+                    <td class="item-price">95:-</td>
+                </tr>
+            </table>
+            <h3 id="salad-menu">Sallader</h3>
+            <p>Isbergssallad, gurka och tomater ingår i alla sallader</p>
+            <hr width="35%">
+            <table class="menu-table">
+                <tr>
+                    <td class="item-name-wide"></td>
+                    <td class="item-price-hide">N</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">1. Räksallad - <small>Räkor, F. Champinjoner, Ägg, Paprika, Citron,
+                            Ost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">2. Ostsallad - <small>Mozzarellaost, Färskost, Ost, Oliver, Pepperoni,
+                            Lök,
+                            Citron</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">3. Skinksallad - <small>Skinka, Ananas, Majs, Paprika, Ost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">4. Grekisk Sallad - <small>Fårost, Lök, paprika, Oliver, Citron</small>
+                    </td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">5. Kycklingsallad - <small>Kyckling, Lök, Oliver, Majs, Paprika, Citron,
+                            Ost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">6. Vegetarisk Sallad - <small>F. Champinjoner, Lök, Sparris, Paprika,
+                            Oliver,
+                            Majs, Citron, Ost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">7. Mixsallad - <small>Skinka, Tonfisk, Räkor, Ost, Majs, Ananas,
+                            Paprika</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">8. Avokadosallad - <small>Avokado, F. Champinjoner, Skinka, Räkor,
+                            Paprika,
+                            Ägg, Ost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">9. Kebabsallad - <small>Kebabkött, Lök, Pepperoni, Ost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">10. Skaldjurssalad - <small>Tonfisk, Musslor, Räkor, Ägg , Paprika,
+                            Citron,
+                            Ost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">11. Indiansallad - <small>Skinka, Räkor, Ananas, Majs, Paprika, Banan,
+                            Ost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">12. Pastasallad - <small>Pasta, Skinka, Salami, Lök, Majs, Ägg, Oliver,
+                            Paprika</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">13. Parmasallad - <small>Mozzarellaost, Parma Skinka, Soltorkade Tomater,
+                            Lök, Oliver, Ägg, Citron</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">14. Falafelsallad - <small>Falafel, Ost, Lök, Majs, Oliver,
+                            Pepperoni</small>
+                    </td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">15. Tacosallad - <small>Tacofärs, Ost, Majs, Lök</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">16. Gyrossallad - <small>Fläskkött, Ost, Lök, Oliver, Pepperoni,
+                            Citron</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">17. Tonfisksallad - <small>Tonfisk, Ost, Lök, Citron, Paprika</small>
+                    </td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">18. Caesarsallad - <small>Grillad Kyckling, Ruccola, Lök, Krutonger,
+                            Parmesanost</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+            </table>
+            <h3 id="hamburger-menu">Hamburgare</h3>
+            <hr width="35%">
+            <table class="menu-table">
+                <tr>
+                    <td class="item-name-wide"></td>
+                    <td class="item-price-hide">N</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">1. Hamburgare med Bröd <small>90g</small></td>
+                    <td class="item-price">40:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">2. Hamburgaremeny <small>90g</small></td>
+                    <td class="item-price">70:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">3. Hamburgare med Bröd <small>150g</small></td>
+                    <td class="item-price">50:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">4. Hamburgaremeny <small>150g</small></td>
+                    <td class="item-price">80:-</td>
+                </tr>
+            </table>
+            <h3 id="taco-menu">Tacorätter</h3>
+            <hr width="35%">
+            <table class="menu-table">
+                <tr>
+                    <td class="item-name-wide"></td>
+                    <td class="item-price-hide">N</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">1. Tacotallrik - <small>Tacofärs, Ost, Majs, Tomat, Gurka, Sallad,
+                            Rödlök</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">2. Tacorulle - <small>Tacofärs, Ost, Majs, Tomat, Gurka, Sallad,
+                            Rödlök</small></td>
+                    <td class="item-price">70:-</td>
+                </tr>
+            </table>
+            <h3 id="others-menu">Övriga Rätter</h3>
+            <hr width="35%">
+            <table class="menu-table">
+                <tr>
+                    <td class="item-name-wide"></td>
+                    <td class="item-price-hide">N</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">1. Gyros med Bröd</td>
+                    <td class="item-price">60:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">2. Kebab med Bröd</td>
+                    <td class="item-price">60:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">3. Kycklingkebab med Bröd</td>
+                    <td class="item-price">60:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">4. Falafel med Bröd</td>
+                    <td class="item-price">50:-</td>
+                </tr>
+                <tr>
+                    <td class="table-row-hide">Hidden</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">5. Kebabrulle</td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">6. Gyrosrulle</td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">7. Kycklingkebabrulle</td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">8. Falafelrulle</td>
+                    <td class="item-price">80:-</td>
+                </tr>
+                <tr>
+                    <td class="table-row-hide">Hidden</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">9. Kebabtallrik <small>med pommes eller ris</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">10. Gyrostallrik <small>med pommes eller ris</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">11. Kycklingkebabtallrik <small>med pommes eller ris</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">12. Falafeltallrik <small>med pommes eller ris</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">13. Chicken Bits <small>med pommes eller ris</small></td>
+                    <td class="item-price">85:-</td>
+                </tr>
+                <tr>
+                    <td class="table-row-hide">Hidden</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">14. Kebab/Gyros/Kyckling/Falafel-Skrovmål</td>
+                    <td class="item-price">90:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">15. Mixtallrik <small>med två valfria ovanstående ingr.</small></td>
+                    <td class="item-price">100:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">16. Lasagne</td>
+                    <td class="item-price">85:-</td>
+                </tr>
+            </table>
+            <h3>Dryck</h3>
+            <hr width="35%">
+            <table class="menu-table">
+                <tr>
+                    <td class="item-name-wide"></td>
+                    <td class="item-price-hide">N</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">1. Coca-Cola - <small>33cl (Original/Light/Zero/Light Exotic
+                            Mango)</small>
+                    </td>
+                    <td class="item-price">15:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">2. Fanta - <small>33cl (Orange/Exotic)</small></td>
+                    <td class="item-price">15:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">3. Sprite - <small>33cl</small></td>
+                    <td class="item-price">15:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">4. Bonaqua - <small>33cl (Naturell/Citron & Lime)</small></td>
+                    <td class="item-price">15:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">5. Trocadero - <small>33cl</small></td>
+                    <td class="item-price">15:-</td>
+                </tr>
+                <tr>
+                    <td class="item-name-wide">6. Coca-Cola - <small>2l Flaska</small></td>
+                    <td class="item-price">35:-</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class="footer">
+        <section class="ft-main">
+            <div class="ft-main-item">
+                <h3 class="ft-title">Roslagens pizzabutik</h3>
+                <p>Kyrkogatan 8,<br> 761 30 Norrtälje</p>
+                <h4>Kontakta Oss</h4>
+                <a class="telephone" href="tel:+46176224699">Tel: 0176-22 46 99</a>
+            </div>
+            <div class="ft-main-item">
+                <div class="open-times">
+                    <h3 class="ft-title">Öppettider</h3>
+                    <p class="open-left">Måndag - Fredag:</p>
+                    <p class="open-right">10:30 - 21:00</p>
+                    <hr class="hr-no-margin" />
+                    <p class="open-left">Lördag - Söndag:</p>
+                    <p class="open-right">11:00 - 21:00</p>
+                </div>
+            </div>
+            <div class="ft-main-item">
+                <h3 class="ft-title">Hitta Oss</h3>
+                <table class="fa-icons">
+                    <tr>
+                        <td><a href="https://www.facebook.com/roslagenspizzabutik/?epa=SEARCH_BOX"
+                                class="fa fa-facebook fa-3x"></a></td>
+                        <td><a href="https://www.instagram.com/roslagenspizzabutik/" class="fa fa-instagram fa-3x"></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+
+</html>
